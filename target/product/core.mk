@@ -25,6 +25,7 @@ PRODUCT_PACKAGES += \
     BlockedNumberProvider \
     BookmarkProvider \
     Browser2 \
+    Calculator \
     Calendar \
     CalendarProvider \
     CaptivePortalLogin \
