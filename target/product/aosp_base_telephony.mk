@@ -14,6 +14,7 @@
 # limitations under the License.
 #
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+$(call inherit-product-if-exists, vendor/google/products/gms.mk)
 
 PRODUCT_PACKAGES += \
     messaging
