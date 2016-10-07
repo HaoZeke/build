@@ -18,4 +18,8 @@ $(call inherit-product-if-exists, vendor/google/products/gms.mk)
 
 PRODUCT_PACKAGES += \
     messaging \
-    Stk
+    Stk \
+    telephony-ext
+
+PRODUCT_BOOT_JARS += \
+    telephony-ext
